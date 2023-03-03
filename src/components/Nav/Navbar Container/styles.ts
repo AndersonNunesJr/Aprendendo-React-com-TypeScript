@@ -4,15 +4,25 @@ import { pixelToRem } from 'helpers/pixelToRem';
 export const NavbarContain = styled.div`
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
-align-items:initial;
-padding: 0px;
-width: ${pixelToRem(900)};
-height: ${pixelToRem(46)};
+justify-content: space-between;
+align-items: center;
+padding:25px 0px;
+height: ${pixelToRem(69)};
 border-radius: 0px;
+border-bottom: 2px solid #151934;
 flex: none;
 order: 0;
 flex-grow: 0;
-position: relative;
-margin: auto;
+box-sizing: border-box;
+width: 100%;
+
+@media(max-width:280px){
+
+ height: ${pixelToRem(67)};
+
+ }
 `;
+
+
+
+

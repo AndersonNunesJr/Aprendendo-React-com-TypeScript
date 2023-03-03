@@ -1,7 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { pixelToRem } from '../helpers/pixelToRem';
-
-
+import { pixelToRem } from "../helpers/pixelToRem";
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -9,11 +7,23 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: var(--background-black1000);
+    position: relative;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom: auto;
+    //flex-direction: column;
+    align-items: center;
+    width:auto;
+  
    
    
 }
 
 html{
+   
+    height:auto;
     @media(max-width: 1920px){
         font-size: 93.75%;
     }
@@ -40,7 +50,6 @@ body{
     --background-gray400: #47507A;
     --background-gray300: #8F9BB7;
     --background-white200: #F6F6F7;
-    --background-white: #ffffff;
     --font:#ffffff;
     
     //*Primary-colors*//
@@ -54,9 +63,9 @@ body{
     --Neon-Blue: #2D55FB;
 
      //*Alert-colors*//
-    --Success-Green: #41E88D;
-    --Warning-Yellow: #FFC933;
-    --Error-Red: #F6285F;    
+    --Success: #41E88D;
+    --Warning: #FFC933;
+    --Error: #F6285F;    
 
 
    
@@ -64,39 +73,65 @@ body{
 
         //*Heading*//
 
-        --font-Heading-H1: 700 ${pixelToRem(72)}/${pixelToRem(64)} "satoshi", sans-serif;
+        --font-Heading-H1: 700 ${pixelToRem(72)}/${pixelToRem(
+  64
+)} "satoshi", sans-serif;
 
-        --font-Heading-H2: 700 ${pixelToRem(64)}/${pixelToRem(56)} "satoshi", sans-serif;
+        --font-Heading-H2: 700 ${pixelToRem(64)}/${pixelToRem(
+  56
+)} "satoshi", sans-serif;
 
-        --font-Heading-H3: 700 ${pixelToRem(56)}/${pixelToRem(48)} "satoshi", sans-serif;
+        --font-Heading-H3: 700 ${pixelToRem(56)}/${pixelToRem(
+  48
+)} "satoshi", sans-serif;
 
-        --font-Heading-H4: 700 ${pixelToRem(48)}/${pixelToRem(40)} "satoshi", sans-serif;
+        --font-Heading-H4: 700 ${pixelToRem(48)}/${pixelToRem(
+  40
+)} "satoshi", sans-serif;
 
-        --font-Heading-H5: 700 ${pixelToRem(40)}/${pixelToRem(32)} "satoshi", sans-serif;
+        --font-Heading-H5: 700 ${pixelToRem(40)}/${pixelToRem(
+  32
+)} "satoshi", sans-serif;
 
-        --font-Heading-H6: 700 ${pixelToRem(32)}/${pixelToRem(24)} "satoshi", sans-serif;
+        --font-Heading-H6: 700 ${pixelToRem(32)}/${pixelToRem(
+  24
+)} "satoshi", sans-serif;
 
         //*Subtitle*//
 
-        --font-Subtitle-Lg: 400 ${pixelToRem(26)}/${pixelToRem(18)} "inter", sans-serif;
+        --font-Subtitle-Lg: 400 ${pixelToRem(26)}/${pixelToRem(
+  18
+)} "inter", sans-serif;
 
-        --font-Subtitle-Rg: 400 ${pixelToRem(24)}/${pixelToRem(16)} "inter", sans-serif;
+        --font-Subtitle-Rg: 400 ${pixelToRem(24)}/${pixelToRem(
+  16
+)} "inter", sans-serif;
 
         //*Paragraph*//
 
-        --font-Paragraph-Md: 400 ${pixelToRem(26)}/${pixelToRem(18)} "inter", sans-serif;
+        --font-Paragraph-Md: 400 ${pixelToRem(26)}/${pixelToRem(
+  18
+)} "inter", sans-serif;
 
-        --font-Paragraph-Rg: 400 ${pixelToRem(24)}/${pixelToRem(16)} "inter", sans-serif;
+        --font-Paragraph-Rg: 400 ${pixelToRem(24)}/${pixelToRem(
+  16
+)} "inter", sans-serif;
 
-        --font-Paragraph-Sm: 400 ${pixelToRem(22)}/${pixelToRem(14)} "inter", sans-serif;
+        --font-Paragraph-Sm: 400 ${pixelToRem(22)}/${pixelToRem(
+  14
+)} "inter", sans-serif;
 
         //*Button*//
 
-        --font-Button-Rg: 500 ${pixelToRem(16)}/${pixelToRem(16)} "satoshi", sans-serif;
+        --font-Button-Rg: 500 ${pixelToRem(16)}/${pixelToRem(
+  16
+)} "satoshi", sans-serif;
 
         //*Caption*//
 
-        --font-Caption-Rg: 400 ${pixelToRem(20)}/${pixelToRem(12)} "inter", sans-serif;
+        --font-Caption-Rg: 400 ${pixelToRem(20)}/${pixelToRem(
+  12
+)} "inter", sans-serif;
 
         //*Fonts*//
 

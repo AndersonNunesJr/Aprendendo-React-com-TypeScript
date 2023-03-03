@@ -1,23 +1,25 @@
-import React from 'react';
-import { GlobalStyles } from './styles/globalStyles';
-import  Button  from './components/Button';
-import {  Header, Logo, Nav, NavbarContain }  from 'components/Nav';
-//import { Navbar } from './components';
-//import { Header } from 'styles/styles';
+import React from "react";
+import { GlobalStyles } from "./styles/globalStyles";
+import { Header, Logo, Nav, NavbarContain, NavButton } from "components/Nav";
+import { GroupImage25, Title  } from "components/SectionsPages";
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      
+
       <Header>
         <NavbarContain>
-        <Logo />
-         <Nav />
-         </NavbarContain>
+          <Logo />
+          <Nav />
+          <NavButton />
+        </NavbarContain>
       </Header>
+         <Title />
+          <GroupImage25 />
+       
+
       
-      <Button text="Get a demo" variant='secondary' />
     </>
   );
 }
