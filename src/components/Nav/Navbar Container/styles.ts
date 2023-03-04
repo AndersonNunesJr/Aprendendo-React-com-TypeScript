@@ -9,7 +9,7 @@ align-items: center;
 padding:25px 0px;
 height: ${pixelToRem(69)};
 border-radius: 0px;
-border-bottom: 2px solid #151934;
+border-bottom: 1px solid #151934;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -20,7 +20,7 @@ width: 100%;
 
  height: ${pixelToRem(67)};
 
- }
+ }  
 `;
 
 

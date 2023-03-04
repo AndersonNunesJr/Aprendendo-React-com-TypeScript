@@ -13,13 +13,14 @@ function App() {
           <Logo />
           <Nav />
           <NavButton />
+
         </NavbarContain>
       </Header>
-         <Title />
-          <GroupImage25 />
-       
+      <Title />
+      <GroupImage25 />
 
-      
+
+
     </>
   );
 }

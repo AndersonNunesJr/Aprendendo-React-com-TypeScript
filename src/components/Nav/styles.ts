@@ -16,7 +16,7 @@ flex-direction: column;
 align-items: center;
 width:auto;
 height: ${pixelToRem(96)};
-border-bottom: 2px solid #151934;
+border-bottom: 1px solid #151934;
 border-radius: 0px;
 flex: none;
 order: 0;

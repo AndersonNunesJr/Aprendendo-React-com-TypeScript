@@ -11,9 +11,7 @@ export const ButtonComponent = styled.button<Partial<ButtonProps>>`
     border-radius: ${pixelToRem(46)};
     color: var(--font);
     position: relative;
-    @media(max-width:500px){
-      width: min-content;
-    }
+   
     
     ${({variant}) => variant === 'primary' && css`
         background: var(--violet);

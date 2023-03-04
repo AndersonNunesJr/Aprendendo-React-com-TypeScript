@@ -29,14 +29,15 @@ html{
     }
     @media(max-width: 280px){
          font-size: 87.5%;
-         -webkit-text-size-adjust: 100%;
+        
     }
 }
 
 body{
-   font-family: "satoshi", sans-serif;
-   font-family: "inter", sans-serif;
-   -webkit-font-smoothing: antialiased ;
+
+  
+   font-family: "satoshi","inter", sans-serif;
+   
 }
 
 :root{

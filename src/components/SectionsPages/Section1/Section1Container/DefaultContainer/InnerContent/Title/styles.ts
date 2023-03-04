@@ -36,7 +36,7 @@ background-clip: text;
 flex: none;
 order: 1;
 flex-grow: 0;
-
+padding-top: 25px;
 
 
 
@@ -72,7 +72,7 @@ background: linear-gradient(180deg, #F6F6F7 0%, #7E808F 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-width: ${pixelToRem(320)};
+width: auto;
  }
 
 `;

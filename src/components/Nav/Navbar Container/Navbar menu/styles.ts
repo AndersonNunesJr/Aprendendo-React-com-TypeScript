@@ -27,6 +27,7 @@ export const N = styled.div`
       border: none;
       color: var(--background-gray300);
       font-family: var(--font-Heading-H1);
+      text-decoration: none;
        
     }
   
@@ -35,28 +36,32 @@ export const N = styled.div`
       border: none;
       color: var(--background-gray300);
       font-family: var(--font-Heading-H1);
-     
+      text-decoration: none;
+
     }
     .Features {
       background-color: var(--background-black1000);
       border: none;
       color: var(--background-gray300);
       font-family: var(--font-Heading-H1);
-      
+      text-decoration: none;
+
     }
     .Pricing {
       background-color: var(--background-black1000);
       border: none;
       color: var(--background-gray300);
       font-family: var(--font-Heading-H1);
-      
+      text-decoration: none;
+
     }
     .Blog {
       background-color: var(--background-black1000);
       border: none;
       color: var(--background-gray300);
       font-family: var(--font-Heading-H1);
-      
+      text-decoration: none;
+
     }
   
   `;
