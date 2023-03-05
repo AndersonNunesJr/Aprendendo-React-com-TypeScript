@@ -1,2 +1,3 @@
-export * from './styles';
-//export * from './Section7Container';
+
+export * from './InnerContent';
+export * from './Title';

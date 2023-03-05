@@ -24,8 +24,7 @@ export const TitleWeb = styled.div`
 
 
 
-font-family: var(--font-Heading-H1);
-font-size: ${pixelToRem(64)};
+font: var(--font-Heading-H1);
 line-height: ${pixelToRem(72)};
 text-align: center;
 letter-spacing: -0.02em;
@@ -37,18 +36,12 @@ flex: none;
 order: 1;
 flex-grow: 0;
 padding-top: 25px;
+padding-bottom:10px;
 
 
-
-@media(min-width: 915px){
-        
-    width: ${pixelToRem(1000)};
-    
-    }
  @media(max-width:600px){
 
 
-font-size:fit-content;
 font-size: ${pixelToRem(41)};
 line-height: ${pixelToRem(39)};
 text-align: center;
@@ -57,14 +50,11 @@ background: linear-gradient(180deg, #F6F6F7 0%, #7E808F 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-width: ${pixelToRem(336)};
+
  }
 
  @media(max-width:330px){
 
-
-font-size:fit-content;
-font-size: ${pixelToRem(41)};
 line-height: ${pixelToRem(39)};
 text-align: center;
 letter-spacing: -0.02em;
@@ -80,7 +70,7 @@ width: auto;
 export const SubTitle = styled.div`
 
 padding: 0px 15px 15px;
-font-family: var(--font-Subtitle-Lg) ;
+font: var(--font-Subtitle-Lg) ;
 font-size: 18px;
 line-height: 26px;
 text-align: center;
@@ -89,12 +79,10 @@ flex: none;
 order: 2;
 flex-grow: 0;
 
-
-
    
 @media(min-width: 800px){
         
-      width: ${pixelToRem(899)};
+      width: ${pixelToRem(830)};
     
     }
  @media(max-width:799px){

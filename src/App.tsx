@@ -1,26 +1,16 @@
 import React from "react";
 import { GlobalStyles } from "./styles/globalStyles";
-import { Header, Logo, Nav, NavbarContain, NavButton } from "components/Nav";
-import { GroupImage25, Title  } from "components/SectionsPages";
+import { Navigation } from "components";
+import { Section1, Section2 } from "components/SectionsPages";
 
 function App() {
   return (
     <>
       <GlobalStyles />
 
-      <Header>
-        <NavbarContain>
-          <Logo />
-          <Nav />
-          <NavButton />
-
-        </NavbarContain>
-      </Header>
-      <Title />
-      <GroupImage25 />
-
-
-
+      <Navigation />
+      <Section1 />
+      <Section2 />
     </>
   );
 }

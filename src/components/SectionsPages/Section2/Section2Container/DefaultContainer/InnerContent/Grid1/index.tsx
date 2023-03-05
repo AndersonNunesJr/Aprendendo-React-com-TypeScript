@@ -1,2 +1,2 @@
 export * from './styles';
-export * from './Grids';
+export * from './Grids1';
